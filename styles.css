@@ -599,13 +599,19 @@ font-family: 'Montserrat', sans-serif;
   html{
     font-size: 26.6%;
   }
+  .heading-primary-main {
+    font-size: 12.2rem;
+  }
+  .heading-primary-sub {
+    font-size: 3rem;
+  }
   .navigation .navi-background {
 
-      right: 17.5rem;
+      right: 12.5rem;
     }
     .navigation .navi-button {
 
-    right: 17rem;
+    right: 12rem;
   }
 .containerr {
     position: relative;
