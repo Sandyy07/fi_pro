@@ -607,12 +607,36 @@ font-family: 'Montserrat', sans-serif;
   }
   .navigation .navi-background {
 
-      right: 12.5rem;
+      right: 13.5rem;
     }
     .navigation .navi-button {
 
     right: 12rem;
   }
+  .navigation .navi-button {
+
+      height: 11rem;
+      width: 11rem
+    }
+
+    .navi-icon {
+      position: relative;
+      margin-top: 5rem;
+  }
+  .navi-icon::before {
+    position: absolute;
+    top: -.9rem;
+}
+  .navi-icon::after {
+    position: absolute;
+    top: 1.1rem;
+}
+.navi-button:hover .navi-icon::before{
+  top:-1rem;
+}
+.navi-button:hover .navi-icon::after{
+  top:1.25rem;
+}
 .containerr {
     position: relative;
     width: 350px;
@@ -737,4 +761,5 @@ width: 50px;
 .middle-container{
   margin-top: 150px;
 }
+
 }
