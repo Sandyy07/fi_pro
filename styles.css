@@ -657,7 +657,7 @@ font-family: 'Montserrat', sans-serif;
     width:380px;
   }
   .testimonial-text{
-    font-size: 0.95rem;
+    font-size: 1.5rem;
     line-height: 2;
   }
   .skill-rowT{
@@ -714,10 +714,13 @@ font-family: 'Montserrat', sans-serif;
 }
 h1 {
 
-    font-size: 3.525rem;
+    font-size: 4.525rem;
 }
 .belowSAND{
     padding-top:20px;
+}
+p{
+  font-size: 2.1rem;
 }
 
 
