@@ -603,11 +603,24 @@ font-family: 'Montserrat', sans-serif;
     position: relative;
     font-size: 4rem;
   }
+  .heading-secondary {
+    font-size: 5.5rem;
+    font-weight: 500;
+  }
+
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 300px;
+  }
   .link{
     font-size: 2.1rem;
   }
   .copyRight {
-  
+
     font-size: 1.53rem;
   }
   h2{
@@ -629,28 +642,38 @@ font-family: 'Montserrat', sans-serif;
   }
   .navigation .navi-button {
 
-      height: 11rem;
-      width: 11rem
+      height: 12rem;
+      width: 12rem
     }
 
     .navi-icon {
       position: relative;
-      margin-top: 5rem;
+      margin-top: 5.8rem;
   }
   .navi-icon::before {
     position: absolute;
-    top: -.9rem;
+    top: -1.09rem;
 }
   .navi-icon::after {
     position: absolute;
     top: 1.1rem;
 }
 .navi-button:hover .navi-icon::before{
-  top:-1rem;
+  top:-1.3rem;
 }
 .navi-button:hover .navi-icon::after{
-  top:1.25rem;
+  top:1.46rem;
 }
+.navigation .navi-list {
+    top: 40%;
+  }
+  .navigation .navi-background {
+    right: 12rem;
+}
+.navigation .navi-background {
+    height: 11rem;
+    width: 11rem;
+  }
 .containerr {
     position: relative;
     width: 350px;
