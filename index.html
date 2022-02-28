@@ -1,192 +1,804 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Merriweather&family=Montserrat:ital@1&family=Sacramento&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+*,*::after,*::before{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
 
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
-
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <link rel="icon" href="icon-cat.ico">
-  <title>Sandeep</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <div class="navigation">
-    <input type="checkbox" class="navi-checkbox" id="navi-toggle">
-    <label for="navi-toggle" class="navi-button">
-      <span class="navi-icon">&nbsp;</span>
-    </label>
-    <div class="navi-background">&nbsp;</div>
-    <div class="navi-nav">
-      <ul class="navi-list">
-        <li class="navi-item"><a id ="n1" href="#top-b" class="navi-link"><span>01</span>        About </a></li>
-          <li class="navi-item"><a href="#top-c" class="navi-link"><span>02</span>      Interests</a></li>
-            <li class="navi-item"><a href="#top-d" class="navi-link"><span>03</span>    Contact</a></li>
-      </ul>
-    </div>
-  </div>
-<header class="header">
-  <div class="logo-box">
-    <h5>Sandy</h5>
-  </div>
-  <div class="text-box">
-    <h1 class="heading-primary">
-      <span class="heading-primary-main">I'm Sandeep</span>
-      <span class="heading-primary-sub">a programmer.</span>
-
-    </h1>
-</header>
-
-  <section id="top-b">
-
-    <div class="middle-container">
-      <div class="profile">
-        <img class="boy" src="images/boy.png" alt="profile-pic">
-        <h2>Hello.</h2>
-        <p class="intro">Hey there! I am a web developer enthusiast, love programming and prefer tea over coffee any time ❤️</p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2 class="heading-secondary">My Skills.</h2>
-        <div class="skill-row">
-          <img class="imA" src="images/java.png" alt="pic 1">
-          <h3 class="h3L">Java</h3>
-          <p class="h3L">I'm a passionate Java Developer, so I know how to solve your problems regarding to Java.Though there are other Coding languages avaiable still Java is the best Coding Language according to me and also gained knowledge in Java
-            GUI.</p>
-        </div>
-
-        <div class="skill-row">
-          <img class="imB" src="images/programming.gif" alt="pic 2">
-          <h3 class="h3R">Web-Development</h3>
-          <p class="h3R">I really enjoy doing web development. Over time, I have gained and wield my skills for designing and developing mobile and web applicationsand ongoing study on the latest in full stack developing and programming.I am
-            proficient in HTML Structuring, designing with CSS , JavaScript and Frameworks. </p>
-        </div>
-
-        <div class="skill-row">
-          <img class="imA" src="images/sql.png" alt="sql-img">
-          <h3 class="h3L">Database Management</h3>
-          <p class="h3L">I enjoy working with SQL to create and manage databases.</p>
-
-
-        </div>
-
-  </section>
-
-  <hr>
-
-  <section id="top-c">
-    <div class="m-interest" style="padding-top:2px;">
-      <h2 class="heading-secondary" style="padding-bottom:0; margin-top:0">What i love to do.</h2>
-      <div class="carousel">
-        <div class="carousel-item">
-          <img src="images/imP.png" alt="">
-           <h3 class="h3T">Problem Solving</h3>
-            <p class="testimonial-text">I like to solve a problem, then understand how to translate the algorithm into something a computer can do, and finally how to write the specific syntax to get the job done.</p>
-        </div>
-        <div class="carousel-item">
-          <img src="images/sing.png" alt="">
-          <h3 class="h3T">Singing</h3>
-          <p class="testimonial-text">Singing is my driving force, it gives me miraculous energy and boots my system.</p>
-        </div>
-        <div class="carousel-item">
-          <img src="images/game.png" style="width:70%;" alt="">
-          <h3 class="h3T">Gaming</h3>
-          <p class="testimonial-text">I enjoy gaming the most. My favourite categories of games are FPS, RPG and Open world.</p>
-        </div>
-
-        <div class="carousel-item">
-          <img src="images/movie.png" alt="">
-          <h3 class="h3T">Movies & TV Series</h3>
-          <p class="testimonial-text">I am an ardent enjoyer of movies and tv series. I love watching science fiction, drama and thriller movies.</p>
-        </div>
-
-        </div>
-          <h3 style="padding-bottom :15px;">< <span style="visibility:hidden; ">asasasasasasasasas </span>> </h3>
-        </div>
-
-
-  </section>
-
-
-  <hr>
-  <section id="top-d">
-    <div class="contact-me">
-      <h2 class="heading-secondary">Get In Touch</h2>
-      <div class="smallChange">
-        <span style="--here:1;">i</span>
-        <span style="--here:2;">f</span>
-        <span style="--here:3; visibility:hidden">.</span>
-        <span style="--here:4;">y</span>
-        <span style="--here:5;">o</span>
-        <span style="--here:6;">u</span>
-        <span style="--here:7; visibility:hidden">.</span>
-        <span style="--here:8;">l</span>
-        <span style="--here:9;">o</span>
-        <span style="--here:10;">v</span>
-        <span style="--here:11;">e</span>
-        <span style="--here:12; visibility:hidden">.</span>
-        <span style="--here:13;">s</span>
-        <span style="--here:14;">i</span>
-        <span style="--here:15;">n</span>
-        <span style="--here:16;">g</span>
-        <span style="--here:17;">i</span>
-        <span style="--here:18;">n</span>
-        <span style="--here:19;">g</span>
-        <span style="--here:20; visibility:hidden">.</span>
-        <span style="--here:21;">a</span>
-        <span style="--here:22;">s</span>
-        <span style="--here:23; visibility:hidden">.</span>
-        <span style="--here:24;">m</span>
-        <span style="--here:25;">u</span>
-        <span style="--here:26;">c</span>
-        <span style="--here:27;">h</span>
-        <span style="--here:28; visibility:hidden">.</span>
-        <span style="--here:29;">a</span>
-        <span style="--here:30;">s</span>
-        <span style="--here:31; visibility:hidden">.</span>
-        <span style="--here:32;">i</span>
-        <span style="--here:33; visibility:hidden">.</span>
-        <span style="--here:34;">d</span>
-        <span style="--here:35;">o</span>
-      </div>
-        <h6>^ touch ^</h6>
-      <p class="contact">Love singing as much as i do? Let's do it together!  We can code while we sing 😜.</p>
-
-      <a class="btn" href="mailto:rebcasandy07@email.com"><span>CONTACT ME</span><span>CONTACT ME</span></a>
-    </div>
+html
+{
+  font-size: 62.5%;
+  text-align: center;
+}
+body{
+  padding: 3rem 3rem 0;
+}
 
 
 
-    <div class="bottom-container" id="contact">
 
 
 
-      <a class="link" href="https://www.linkedin.com/">LinkedIn</a>
-      <a class="link" href="https://github.com/">Github</a>
-      <a class="link" href="https://www.instagram.com/">Instagram</a>
-      <p class="copyRight"> @ Sandeep Neeli.</p>
-    </div>
-  </section>
+
+.navi-icon{
+  position: relative;
+  margin-top: 3.5rem;
+}
+.navi-icon,.navi-icon::before,.navi-icon::after{
+width: 3rem;
+height: .2rem;
+background-color: #333;
+display: inline-block;
+}
+.navi-icon::before,.navi-icon::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: all .2s;
+}
+.navi-icon::before{
+    position: absolute;
+top: -.8rem;
+}
+.navi-icon::after{
+    position: absolute;
+top: .8rem;
+}
+.navi-button:hover .navi-icon::before{
+  top:-1rem;
+}
+.navi-button:hover .navi-icon::after{
+  top:1rem;
+}
+.navi-checkbox:checked + .navi-button .navi-icon{  /* +  is adjacent child */
+  background-color: transparent;
+}
+.navi-checkbox:checked + .navi-button .navi-icon::before{
+top: 0;
+  transform: rotate(135deg);
+}
+.navi-checkbox:checked + .navi-button .navi-icon::after{
+  top: 0;
+  transform: rotate(-135deg);
+}
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+.navigation .navi-checkbox{
+display: none;
+}
+.navigation .navi-button{
+background-color: #fff;
+height: 7rem;
+width: 7rem;
+position: fixed;
+top: 6rem;
+right: 6rem;
+border-radius: 50%;
+z-index: 2000;
+box-shadow: 0 1rem 3rem rgba(0,0,0,.1);
+text-align: center;
+cursor: pointer;
+}
+.navigation .navi-background{
+height: 6rem;
+width: 6rem;
+border-radius: 50%;
+position: fixed;
+top: 6.5rem;
+right: 6.5rem;
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(){
-      $('.carousel').carousel();
-    });
-</script>
-  <script src="index.js" charset="utf-8"></script>
+background-image: radial-gradient(#7ed56f,#28b485);
+/* starts from middle and goes evrywhr */
+z-index: 1000;
+/* transform: scale(80); */
+transition: transform .8s cubic-bezier(0.86,0,0.07,1);
+}
+.navigation .navi-nav{
+  height: 100vh;
+  /* width: 100%; */
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  z-index: 1500;
+  opacity: 0;
+  width: 0;
+  transition: all .8s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.navigation .navi-list{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+list-style: none;
+/* width: 100% */
+}
+.navigation .navi-item{
+margin: 1rem;
+}
 
-  </body>
-  </html>
+.navigation .navi-link:link,.navi-link:visited{
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 1rem 2rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(120deg,transparent 0%,transparent 50%,#fff 50%);
+  background-size: 230%;
+  transition: all .4s;
+}
+.navigation .navi-link span{
+margin-right: 1.5rem;
+display: inline-block;
+}
+.navigation .navi-link:hover,.navi-link:active{
+  background-position: 100%;
+  color: #28b485;
+  transform: translateX(1rem);
+}
+ .navigation .navi-checkbox:checked ~ .navi-background{ /*~ sibling selector */
+transform: scale(80);
+}
+.navigation .navi-checkbox:checked ~ .navi-nav{
+opacity: 1;
+width: 100%;
+}
+
+/* nav */
+.header{
+  height: 95vh;
+  /* % of view port height */
+  background-image:linear-gradient(to right bottom,rgba(126, 213, 111, 0.8),rgba(40, 180, 131, 0.8)),url("./images/nat-6.jpg");
+  background-size: cover;
+  /* cover----- // filll completely */
+background-position: top;
+/* top of the image always stayes wouldnt be cropped */
+-webkit-clip-path:polygon(0 0, 100% 0%,100% 75vh ,0 100%);
+clip-path:polygon(0 0, 100% 0%,100% 75vh ,0 100%);
+/* orgin is top left corner */
+position: relative;
+}
+.logo-box{
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+h5{
+    position: relative;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+font-family: 'Montserrat', sans-serif;
+}
+/* .logo:hover{
+  animation: moveInRight 1s ease-out;
+} */
+.text-box{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+transform: translate(-50%,-50%);
+/* wrt item itself */
+text-align: center;
+}
+.heading-primary{
+  color: #fff;
+  /* text-transform: uppercase; */
+  backface-visibility: hidden;
+  /* to avoid as shake after animation */
+  margin-bottom: 6rem;
+}
+.heading-primary-main{
+  font-weight: normal;
+  font-size: 7.2rem;
+
+  margin: 150px auto 0 auto;
+  font-family: 'Comforter', cursive;
+  display: block;
+
+  letter-spacing: 1rem;
+  animation: moveInLeft 2s ease-out;
+}
+.heading-primary-sub{
+  font-size:1.8rem;
+  font-weight: normal;
+
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 30px;
+  text-align: center;
+  display: block;
+
+  font-weight: normal;
+  letter-spacing: .5rem;
+  animation-name: moveInRight;
+  animation-duration: 2s;
+  /* animation-delay: 1s; */
+  /* animation-iteration-count: 2; */
+  animation-timing-function: ease-out;
+  /* starts slow n proceeds fasts */
+}
+
+
+@keyframes moveInLeft {
+  0%{
+    opacity: 0;
+    transform: translateX(-16rem) /*rotate(0deg);*/
+    /* default direction: left to right and top to bottom */
+  }
+  /* 60%{
+    transform: rotate(180deg);
+  } */
+  80%{
+    transform: translateX(2.5rem) /*rotate(180deg);*/;
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0) /*rotate(0deg)*/;
+  }
+}
+
+@keyframes moveInRight {
+  0%{
+    opacity: 0;
+    transform: translateX(16rem);
+  }
+  80%{
+    transform: translate(-2.5rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes buttonUp{
+  0%{
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.heading-secondary{
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right,rgba(126, 213, 111, 0.8),rgba(40, 180, 131, 0.8) );
+  -webkit-background-clip:text;
+  /* clips completele background only for text */
+  /* to see text now make text trasparent */
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s;
+}
+.heading-secondary:hover{
+  transform: skewY(2deg) skewX(15deg) scale(1.1);
+  text-shadow: .5rem 1rem 2rem rgba(0,0,0,.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+  font-weight: normal;
+  font-size: 5.625rem;
+  color: #221e1e;
+  margin: 150px auto 0 auto;
+  font-family: 'Comforter', cursive;
+
+}
+h2 {
+    font-size: 4rem;
+    font-weight: normal;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    padding: 70px 0px 50px;
+}
+
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-size: 3.8rem;
+}
+p {
+    line-height: 2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+.middle-container{
+padding: 100px 0 20px;
+background-color: #fff;
+
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.bottom-container{
+background-color:  #221e1e;;
+padding: 80px 0 20px;
+margin-top: 70px;
+}
+
+/* .bottom-cloud{
+  position:absolute;
+left:250px;
+bottom: 540px;
+}
+.top-cloud{
+  position:absolute;
+ right:300px;
+ top:170px;
+} */
+
+.link{
+  color:#fff;
+  margin: 10px 24px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.link:hover{
+  color: #3cedb7;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+.skill-rowT{
+  width: 70%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+.imA{
+  width:170px;
+  float:left;
+  margin-right: 30px;
+}
+.imB{
+  width:200px;
+  float: right;
+  margin-left: 30px;
+}
+.i1{
+  width:30%;
+  float:left;
+  margin-right: 30px;
+}
+.i2{
+  float:left;
+  margin-right: 30px;
+  width:200px;
+}
+.i3{
+  float:left;
+  margin-right: 30px;
+  width:360px; height:200px;
+}
+.i4{
+  float:left;
+  margin-right: 30px;
+  width:200px;
+}
+
+
+
+
+hr{
+/* border: dotted #EAF6F6 6px;
+border-bottom: none;
+width: 4%;
+ */
+ background-color: #fff;
+border-style:none;
+border-top-style: dotted;
+border-color: grey;
+border-width: 6px;
+width: 5%;
+margin: 100px auto;
+}
+/* a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  /* margin: 10px 24px;
+  text-decoration: none;
+}
+#header a:hover{
+  color: #21564b;
+} */
+
+.smallChange{
+  margin-top:50px;
+  position: relative;
+}
+.smallChange span{
+  position: relative;
+  font-size: 2rem;
+  /* font-weight: normal; */
+    color: #66BFBF;
+/* font-family: 'Montserrat', sans-serif; */
+  display:inline-block;
+  animation: animatee 2.5s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--here));
+  animation-play-state: paused;
+}
+.smallChange:hover span{
+
+  animation-play-state: running;
+}
+@keyframes animatee {
+0%,40%,100%{
+  transform: translateY(0);
+}
+20%{
+  transform: translateY(-30px);
+}
+}
+
+
+/* btn 2 */
+.btn{
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+
+}
+.btn span{
+position: absolute;
+top: 0;
+  height: 100%;
+left: 0;
+width: 100%;
+font-size: 22px;
+font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background: #ffe900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1.5px;
+
+
+}
+
+.btn span:nth-child(2){
+  color: #ffe900;
+  background: #fff;
+  overflow: hidden;
+  z-index: 2;
+  transition: 0.5s;
+  clip-path: polygon(60% 0,100% 0%,100% 100%,60% 100%,40% 53%)
+}
+
+.btn span:nth-child(2):hover{
+  clip-path: polygon(0% 0,100% 0%,100% 100%,0% 100%,0% 50%)
+
+}
+
+.btn span:nth-child(1):hover ~ span:nth-child(2){
+  clip-path: polygon(100% 0,100% 0%,100% 100%,100% 100%,100% 50%)
+
+}
+
+/* btn 2 */
+
+
+.contact{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyRight{
+  color: #EAF6F6;
+  font-size: 1.13rem;
+  padding: 20px 0;
+
+}
+
+
+/* carousel */
+/* .carousel-item{
+    padding: 7% 15%;
+} */
+.testimonial-text{
+  font-size: 2rem;
+  line-height: 2;
+  font-family: 'Comfortaa', cursive;
+
+}
+.h3T{
+  font-size: 3.4rem;
+}
+.m-interest{
+  background-color: #e1eff6;
+  padding-top: 100px;
+}
+
+.boy{
+  width: 128px;
+}
+
+
+
+
+
+/* navbar 2 */
+
+
+
+
+
+
+/* navbar2 */
+/* header nav */
+
+
+
+/* header nav */
+/* cards */
+.carousel{
+  height: 700px;
+  perspective: 600px;
+  transform: translateY(-100px);
+}
+.carousel .carousel-item{
+  width: 330px;
+}
+.carousel .carousel-item img{
+  width:40% ;
+}
+
+/* cards */
+
+/* footer */
+
+
+
+
+
+
+/* footer */
+
+
+/* @media (max-width:1028px) { */
+
+
+
+@media (max-width: 992px)
+{
+  html{
+    font-size: 26.6%;
+  }
+  .smallChange span{
+    position: relative;
+    font-size: 4rem;
+  }
+  .heading-secondary {
+    font-size: 5.5rem;
+    font-weight: 500;
+  }
+
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 300px;
+  }
+  .link{
+    font-size: 2.1rem;
+  }
+  .copyRight {
+
+    font-size: 1.53rem;
+  }
+  h2{
+    font-size: 6rem;
+  }
+  .heading-primary-main {
+    font-size: 12.2rem;
+  }
+  .heading-primary-sub {
+    font-size: 3rem;
+  }
+  .navigation .navi-background {
+
+      right: 13.5rem;
+    }
+    .navigation .navi-button {
+
+    right: 12rem;
+  }
+  .navigation .navi-button {
+
+      height: 12rem;
+      width: 12rem
+    }
+
+    .navi-icon {
+      position: relative;
+      margin-top: 5.8rem;
+  }
+  .navi-icon::before {
+    position: absolute;
+    top: -1.09rem;
+}
+  .navi-icon::after {
+    position: absolute;
+    top: 1.1rem;
+}
+.navi-button:hover .navi-icon::before{
+  top:-1.3rem;
+}
+.navi-button:hover .navi-icon::after{
+  top:1.46rem;
+}
+.navigation .navi-list {
+    top: 40%;
+  }
+  .navigation .navi-background {
+    right: 13rem;
+}
+.navigation .navi-background {
+    height: 11rem;
+    width: 11rem;
+  }
+.containerr {
+    position: relative;
+    width: 350px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.containerr .card .imgBx img {
+    border-radius: 4px;
+    width: 150px;
+}
+.containerr .card .content {
+    padding: 10px 0px;
+  }
+
+.carousel .carousel-item h3{
+  margin: -5px 0 0;
+    padding: 26px 0 0;
+  /* background: #fff; */
+  color:#000;
+  /* box-sizing: border-box; */
+  padding: 10px 5px;
+
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+/* .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    width: 17%;
+    padding: 0;
+     opacity: 1;
+}
+.carousel-control-prev{
+  position: absolute;
+  left:20px;
+} */
+
+
+  .intro {
+    width:350px;
+  }
+  .testimonial-text{
+    font-size: 3rem;
+    line-height: 2;
+  }
+  .skill-rowT{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+  }
+
+  .i1{
+    width: 115px;
+    position: relative;
+    top:460px;
+    left:75px;
+  }
+  .i2{
+    top:340px;
+    left:76px;
+    width: 115px;
+    position: relative;
+  }
+  .i3{
+    top:340px;
+      left:1px;
+      width: 270px;
+      height: 130px;
+    position: relative;
+  }
+  .i4{
+    top:400px;
+    left:76px;
+    width: 115px;
+    position: relative;
+  }
+  .carousel-item{
+      padding: 7% 7%;
+
+  }
+  .skill-row{
+    width: 70%;
+    margin: 100px auto;
+    text-align: center;
+  }
+.h3R{
+  clear:right;
+}
+.h3L{
+
+  clear: left;
+}
+.ia{
+  position: absolute;
+  width:130px;
+  top:300px;
+  left: 150px;
+}
+h1 {
+
+    font-size: 4.525rem;
+}
+.belowSAND{
+    padding-top:20px;
+}
+p{
+  font-size: 2.9rem;
+  outline: 1px ;
+}
+
+
+hr{
+border-width: 5px;
+width: 50px;
+}
+.contact{
+  width: 350px;
+}
+.imA{
+  width: 140px;
+}
+.middle-container{
+  margin-top: 150px;
+}
+
+}
