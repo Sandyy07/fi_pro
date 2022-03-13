@@ -87,7 +87,7 @@ position: fixed;
 top: 6.5rem;
 right: 6.5rem;
 
-background-image: radial-gradient(#7ed56f,#28b485);
+background-image: linear-gradient(to right, #00b09b, #96c93d);
 /* starts from middle and goes evrywhr */
 z-index: 1000;
 /* transform: scale(80); */
